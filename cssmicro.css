@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 96px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: inherit;
+}
+.navlogo img{
+    width: 120px;
+    height: 26px;
+}
+.navword{
+    display: flex;
+    text-align: left;
+    padding-top: 5px;
+}
+.navword ul{
+    text-align: left;
+    display: flex;
+    margin-right: 450px;
+}
+.navword li{
+    font-size: 13px;
+    padding-right: 10px;
+}
+.navword2{
+    display: flex;
+}
+.navword2 img{
+    width: 23px;
+    height: 23px;
+}
+.navword2 ul{
+    display: flex;
+}
+.navword2 li{
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+.phase1 img{
+    display: flex;
+}
+.phase1 img :hover{
+    display: flex;
+    cursor: pointer;
+}
+
+.phase2{
+    display: flex;
+    text-align: left;
+    margin: 0 80px;
+}
+.phase2a{
+    padding-top: 150px;
+    margin: 0 59px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.phase2a p{
+    padding-top: 5px;
+}
+.phase2a h2{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.phase2a span a{
+    text-decoration: none;
+    color: rgb(6, 43, 255);
+    font-weight: bold;
+}
+
+.phase3{
+    background-image: url(./img/microsorft\ outlook.jpeg);
+    height: 700;
+    text-align: left;
+    padding-top: 190px;
+    padding-left: 190px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.phase3 h2{
+    padding-bottom: 17px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.phase3 p{
+    font-weight: normal;
+    padding-bottom: 17px;
+}
+.phase3 button{
+    background-color: rgb(6, 43, 255);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 10px 25px;
+}
+
+.phase4{
+    margin-top: 200px;
+    margin-left: 45px;
+}
+.phase4 h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.phase5{
+    display: flex;
+    justify-content: center;
+    margin: 0 124px;
+}
+.phase5a{
+    margin: 0 10px;
+    font-size: 14px;
+}
+.phase5a p{
+    padding-top: 5px;
+}
+.phase5a h2{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.phase5a span a{
+    text-decoration: none;
+    color: rgb(6, 43, 255);
+    font-weight: 500;
+}
+
+.phase6{
+    text-align: left;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 55px;
+    margin-bottom: 120px;
+}
+.phase6 p{
+    font-weight: 450;
+    margin: 0 13px;
+}
+.phase6 span a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(6, 43, 255);
+}
+
+footer{
+    background-color: rgb(245, 242, 242);
+    color: rgb(117, 113, 113);
+    display: flex;
+    padding-top: 20px;
+    padding-left: 55px;
+}
+.phase7{
+    font-weight: 500;
+    font-size: 15px;
+}
+.phase7:hover{
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.phase7a{
+    font-weight: 500;
+    font-size: 15px;
+}
+.phase7a:hover{
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.phase7b{
+    margin-right: 130px;
+}
+.phase7b:hover{
+    margin-right: 130px;
+    cursor: pointer;
+}
+footer li{
+    margin-bottom: 16px;
+    font-size: 13px;
+    margin-right: 60px;
+}
+footer li:hover{
+    margin-bottom: 16px;
+    font-size: 13px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.phase8{
+    display: flex;
+    background-color: rgb(245, 242, 242);
+    color: rgb(116, 110, 110);
+    padding-top: 60px;
+    padding-left: 55px;
+    padding-bottom: 15px;
+    font-size: 11px;
+}
+.phase8a{
+    display: flex;
+    margin-right: 45px;
+}
+.phase8a img{
+    width: 25px;
+    height: 25px;
+    padding-right: 9px;
+}
+.phase8b:hover{
+    cursor: pointer;
+}
+.phase8c{
+    padding-left: 490px;
+}
+.phase8c ul{
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+} 
+.phase8c li{
+    margin-right: 17px;
+}
+.phase8c li:hover{
+    margin-right: 17px;
+    cursor: pointer;
+}
